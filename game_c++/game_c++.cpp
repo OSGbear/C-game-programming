@@ -29,8 +29,16 @@ using std::endl;
 
 int main()
 {
-	cout << "Game over" << endl;
-	system("pause");
+	//+ д/з
+	float scor1;
+	float scor2;
+	float scor3;
+	cout << "Game over/ indicate points for the level, skill and number of defeated enemies" << endl;
+	std::cin >> scor1;
+	std::cin >> scor2;
+	std::cin >> scor3;
+	cout << "average value:" << (scor1 + scor2 + scor3)/3 << ".";
+	system("\a pause");
 
 	return 0;
 }

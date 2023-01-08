@@ -94,7 +94,25 @@ int main()
 		cout << "\nscore1: " << score1 << endl;
 		++score1;
 		cout << "score1: " << score1 << endl;
-		return 0;
+		//return 0;
+
+		// Программа Game Stats 3.0
+		// Демонстрирует работу с константами
+
+		
+			const int ALIEN_POINTS = 150;
+			int aliensKilled2 = 4;
+			int score2 = aliensKilled2 * ALIEN_POINTS;
+			cout << "score2: " << score2 << endl;
+			enum difficulty { NOVICE,EASY,NORMAL,HARD,UNBEATABLE };
+			difficulty myDifficulty = EASY;
+			difficulty myDifficulty2 = NORMAL;
+
+			enum shipCost { FIGHTER_COST = 25, BOMBER_COST,CRUISER_COST = 50 };
+			shipCost myShipCost = FIGHTER_COST;
+			cout << "\nTo upgrade my ship to а Cruiser will cost " << (CRUISER_COST - myShipCost) << " Resource Points.\n";
+			return 0;
+
 	}
 
 
