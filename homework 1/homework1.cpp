@@ -29,11 +29,9 @@ int main()
 			std::cout << "Attempts: " << attempts << std::endl << "last attempt scored = " << att << std::endl;
 		}
 	}
-
-	
-	
+		
 	if (lives == 0) {
-			std::cout << "\n\n Geme Over!";
+			std::cout << "\n\n\n Geme Over!";
 			std::cout << "\n Score = " << score << std::endl << "Average Score = " << averageScore << std::endl << "Lives = " << lives << std::endl;
 			std::cout << "Attempts: " << attempts << std::endl << "last attempt scored = " << att << std::endl;
 	}
