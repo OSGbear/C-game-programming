@@ -14,7 +14,7 @@ int main()
 		{"glasses", "These might help you see the answer. "},
 		{"labored", "Going slowly. is it?"},
 		{"persistent", "Кеер at it."}, 
-		{"jumbe", "It's what the game is all about."}
+		{"jumble", "It's what the game is all about."}
 	};
 	
 	//переменные для вычисления очков
@@ -23,6 +23,8 @@ int main()
 	short attempts = 0;
 	short att = 0;
 	unsigned int averageScore = 0;
+
+	cout << "\t\t\tWelcome to Word Jumble!\n\n";
 
 	while (lives > 0) {
 
@@ -50,7 +52,7 @@ int main()
 		cout << "Lives = " << lives << std::endl;
 		std::cout << "Attempts: " << attempts << std::endl << "last attempt scored = " << att << std::endl;
 		//
-		cout << "\t\t\tWelcome to Word Jumble!\n\n";
+		
 		cout << "Unscramble е the letters to make а word. \n";
 		cout << "Enter 'hint' for а hint. \n";
 		cout << "Enter 'quit' to quit the game. \n\n";
@@ -63,11 +65,10 @@ int main()
 		{
 			if (guess == "hint")
 			{
-				cout << "Score lost (-200), Score = " << score;
 				cout << theHint;
-				lives--;
-				att = (-200);
-				score += att;
+				att = 40;
+				score -= att;
+				cout << "Score lost (-40), Score = " << score << endl;
 			}
 			else
 			{
@@ -84,7 +85,7 @@ int main()
 		if (guess == theWord)
 		{
 			cout << "\nThat's it! You guessed it!\n";
-			att = 1000;
+			att = (jumble.size())*100;
 			score += att;
 			cout << "Score +1000.";
 			attempts++;
