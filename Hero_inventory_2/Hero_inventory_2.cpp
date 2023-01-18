@@ -42,5 +42,6 @@ int main()
 		{
 			cout << "\nYou have at least one item.\n";
 		}
+		system("pause");
 		return 0;
 	}
