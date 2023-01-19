@@ -25,11 +25,11 @@ int main()
 	{
 		cout << *iter << endl;
 	}
-	cout << "\nThe item name '" << *mylterator << "· has ";
+	cout << "\nThe item name " << *mylterator << " has ";
 	cout << (*mylterator).size() << " letters in it.\n";
-	cout << "\nThe item name '" << *mylterator << "' has ";
+	cout << "\nThe item name " << *mylterator << " has ";
 	cout << mylterator->size() << " letters in it. \n";
-	cout << "\nYou recover а crossbow from а slain enemy. ";
+	cout << "\nYou recover а crossbow from a slain enemy. ";
 	inventory.insert(inventory.begin(), "crossbow");
 	cout << "\nYour items: \n";
 	for (iter = inventory.begin(); iter != inventory.end(); ++iter)
