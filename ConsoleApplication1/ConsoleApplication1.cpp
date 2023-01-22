@@ -29,14 +29,15 @@ int main()
 
 			cout << "\n\nYou have " << (МАХ_WRONG - wrong);
 			cout << " incorrect guesses left. \n";
-			cout << "\nYou've used the following letters;\n" << used << endl;
-			cout << "\nSo far the word is;\n" << soFar << endl;
+			cout << "\nYou've used the following letters;\n" << used << endl;// Символы чоторые я уже писал
+			cout << "\nSo far the word is;\n" << soFar << endl; // показать отгаданые буквы
 			char guess;
 			cout << "\n\nEnter your guess; ";
-			cin >> guess;
+			cin >> guess; //получение символа
 			guess = toupper(guess); //перевод в верхний регистр.
 	// так как загаданное слово записано в верхнем регистре
-			while (used.find(guess) != string::npos)
+			while (used.find(guess) != string::npos)/* если правильно понял то: если поиск найдет символ в уже написаных
+				цыкл предложит ввести символ повторно*/
 			{
 				cout << "\nYou've already guessed " << guess << endl;
 				cout << "Enter your guess; ";
@@ -48,7 +49,7 @@ int main()
 			{
 				cout << "That's right ! " << guess << " is in the word. \n";
 				// обновить переменную soFar.включив в нее новую угаданную букву
-				for (int i = 0; i < THE_WORD.length(); ++i)
+				for (int i = 0; i < THE_WORD.length(); ++i) //length можно заменить на size
 				{
 					if (THE_WORD[i] == guess)
 					{
