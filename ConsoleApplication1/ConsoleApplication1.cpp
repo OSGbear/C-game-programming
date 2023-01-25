@@ -12,7 +12,7 @@ int main()
 {
 	// подготовка
 		const int МАХ_WRONG = 8; // максимально допустимое количество ошибок
-	vector<string>words ; // подборка слов для загадывания
+		vector<string>words ; // подборка слов для загадывания
 		words.push_back("GUESS") ;
 		words.push_back("HANGMAN") ;
 		words.push_back("DIFFICULT") ;
