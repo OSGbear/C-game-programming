@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 char askYesNol();
-	char askYesNo2(string question);
+char askYesNo2(string question);
 int main()
 {
 	char answerl = askYesNol();
