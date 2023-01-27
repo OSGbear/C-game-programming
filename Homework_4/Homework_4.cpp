@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	vector<string> myGames;
+	vector <string> myGames;
 	string command;
 	int position;
 
