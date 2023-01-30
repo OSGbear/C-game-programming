@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scoping", "scoping\scoping.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Glob", "Glob\Glob.vcxproj", "{CEE6DFE5-5F29-4B28-A8AC-D63F01EB5FD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "give_me_a_number", "give_me_a_number\give_me_a_number.vcxproj", "{89AB1B1E-58E8-4356-ABC0-E959C7307561}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{CEE6DFE5-5F29-4B28-A8AC-D63F01EB5FD4}.Release|x64.Build.0 = Release|x64
 		{CEE6DFE5-5F29-4B28-A8AC-D63F01EB5FD4}.Release|x86.ActiveCfg = Release|Win32
 		{CEE6DFE5-5F29-4B28-A8AC-D63F01EB5FD4}.Release|x86.Build.0 = Release|Win32
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Debug|x64.ActiveCfg = Debug|x64
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Debug|x64.Build.0 = Debug|x64
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Debug|x86.ActiveCfg = Debug|Win32
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Debug|x86.Build.0 = Debug|Win32
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Release|x64.ActiveCfg = Release|x64
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Release|x64.Build.0 = Release|x64
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Release|x86.ActiveCfg = Release|Win32
+		{89AB1B1E-58E8-4356-ABC0-E959C7307561}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
