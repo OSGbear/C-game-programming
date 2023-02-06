@@ -2,35 +2,33 @@
 #include <iostream>
 #include <string>
 using namespace std;
-string askText(string prompt);
-int askNumber(string prompt);
+
+int askText(int number );
+string askText(string text );
+
 void tell(string name, int number);
 int main()
 {
-	if
-	
-	
-	
 	cout << "Welcome to M-L.\n\n";
 	cout << "enter text.\n";
 	string name = askText("Please enter а text; ");
-	int number = askNumber("Please enter а number; ");
+	int number ();//= askText("Please enter а number; ");
 	tell (name, number);
 	return 0;
 }
 
-string askText(string prompt)
+string askText(string text)
 {
 	string text;
-	cout << prompt;
+	cout << "pt";
 	cin >> text;
 	return text;
 }
 
-int askNumber(string prompt)
+int askText(int num)
 {
 	int num;
-	cout << prompt;
+	cout << "prompt";
 	cin >> num;
 	return num;
 }
