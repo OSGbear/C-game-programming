@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TakingDamage", "TakingDamag
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mad-Lib", "Mad-Lib\Mad-Lib.vcxproj", "{DEEB505B-9DD0-4266-96CA-7C18148C1AF6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework_5.1", "Homework_5.1\Homework_5.1.vcxproj", "{F5B969B4-E2EE-4351-B0B4-881E7D837802}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{DEEB505B-9DD0-4266-96CA-7C18148C1AF6}.Release|x64.Build.0 = Release|x64
 		{DEEB505B-9DD0-4266-96CA-7C18148C1AF6}.Release|x86.ActiveCfg = Release|Win32
 		{DEEB505B-9DD0-4266-96CA-7C18148C1AF6}.Release|x86.Build.0 = Release|Win32
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Debug|x64.ActiveCfg = Debug|x64
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Debug|x64.Build.0 = Debug|x64
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Debug|x86.ActiveCfg = Debug|Win32
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Debug|x86.Build.0 = Debug|Win32
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Release|x64.ActiveCfg = Release|x64
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Release|x64.Build.0 = Release|x64
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Release|x86.ActiveCfg = Release|Win32
+		{F5B969B4-E2EE-4351-B0B4-881E7D837802}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
