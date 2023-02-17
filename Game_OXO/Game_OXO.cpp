@@ -62,8 +62,8 @@ void instructions()
 	cout << "--where human brain is pit against silicon processor\n\n";
 	cout << "Make your move known Ьу entering а number. 0 - 8. The number\n";
 	cout << "corresponds to the desired board position. as illustrated;\n\n";
-	cout << " 0 | 1 | 2\ n";
-	cout << " ---------\n";
+	cout << " 0 | 1 | 2\n"<<endl;
+	cout << " --------- \n";
 	cout << " 3 | 4 | 5\n";
 	cout << " ---------\n";
 	cout << " 6 | 7 | 8\n\n";
