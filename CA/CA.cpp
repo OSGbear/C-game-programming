@@ -6,7 +6,8 @@
 int& plusThree(int number);
 int main()
 {
-	std::cout<<plusThree(3);
+	std::cout<<plusThree(7)+5;
+	
 
 }
 
